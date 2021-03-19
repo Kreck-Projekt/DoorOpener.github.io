@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Lorem Ipsum</title>
+    <title>SmartDoorOpener</title>
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <link defer rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
     <link defer href="https://fonts.googleapis.com/css?family=Overpass:600,900|Space+Mono" rel="stylesheet">
@@ -13,92 +13,79 @@
 <body>
     <div id="main">
         <header>
-        <div><h1>IT Projekt Herr Kreck</h1></div>
+        <div><h1>Smart DoorOpener</h1></div>
 
 
-        <div><h2>Smarter Türöffner </h2></div>
+        <div><h2>First release comming out soon!</h2></div>
 
 
 </header>
 
 <article class="page">
-    <p>Als Basis wird ein Raspberry Pi genutzt.
-      Die von uns Programmierte App kommuniziert verschlüsselt mit dem auf dem Raspberry Pi laufenden TCP Server.</p>
+    <p>As base we use a Raspberry Pi. The communication between the app and the server that's running on the raspberry pi is encrypted.</p>
 
-
-
-
-<h1>Lorem ipsum dolor sit</h1>
-<div class="cards-3 no-padding">
-
+<h1>Repositories</h1>
 
         <div class="card">
-  <div class="card-img" style="background-image: url('')"></div>
   <div class="card-body">
-    <h3>Lorem Ip</h3>
-    <p>69420</p>
-    <p>Lorem ipsum dolor</p>
+    <h3>RaspiOpener</h3>
+    <p>Java</p>
+    <p>Description:</p>
     <p></p>
-<p>sit amet, consectetur adipiscing elit. Donec facilisis ac orci non congue. Ut rhoncus sodales pellentesque</p>
+<p>It's the program that runs on the Raspberry Pi at the dooropener</p>
+
+<div><a href="https://github.com/Kreck-Projekt/RaspiOpener" class="button">press me</a></div>
 
   </div>
 
 </div>
 
 <div class="card">
-<div class="card-img" style="background-image: url('')"></div>
 <div class="card-body">
-<h3>Lorem Ip</h3>
-<p>69420</p>
-<p>Lorem ipsum dolor</p>
+<h3>Alive Keeper</h3>
+<p>Java</p>
+<p>Description:</p>
 <p></p>
-<p>sit amet, consectetur adipiscing elit. Donec facilisis ac orci non congue. Ut rhoncus sodales pellentesque</p>
+<p>It's a program, that restarts RaspiOpener if it crashes</p>
+<div><a href="https://github.com/Kreck-Projekt/AliveKeeper" class="button">press me</a></div>
 
 </div>
 
 </div>
 
 <div class="card">
-<div class="card-img" style="background-image: url('')"></div>
 <div class="card-body">
-<h3>Lorem Ip</h3>
-<p>69420</p>
-<p>Lorem ipsum dolor</p>
+<h3>DoorOpenerApp</h3>
+<p>Dart</p>
+<p>Description:</p>
 <p></p>
-<p>sit amet, consectetur adipiscing elit. Donec facilisis ac orci non congue. Ut rhoncus sodales pellentesque</p>
-
-</div>
-
-</div>
-
-
-</div>
-
-<h2>sub heading</h2>
-<div class="cards-3 no-padding">
-
-
-        <div class="card">
-  <div class="card-img" style="background-image: url('')"></div>
-  <div class="card-body">
-    <h3>Lorem Ip</h3>
-    <p>696969</p>
-    <p>Lorem ipsum dolor</p>
-    <p></p>
-<p>sit amet, consectetur adipiscing elit.</p>
-
-  </div>
-
-    <div><a href="#" class="button">Linmk</a></div>
-
+<p>The app communitcates with the RaspiOpener to open the door, reset the registered devices or change that password</p>
+<div><a href="https://github.com/Kreck-Projekt/DoorOpenerApp" class="button">press me</a></div>
 </div>
 </div>
-<h2 align="center">BONK</h2>
+
+<h2>Installation:</h2>
+<div class="card">
+<div class="card-body">
+<div><a href="https://github.com/Kreck-Projekt/RaspiOpener/blob/master/README.md" class="button">Installation guide</a></div>
+</div>
+</div>
+
+<h2>Features:</h2>
+<p>- Configure the Time you want the opener to be active</p>
+<p>- Generate and use OTPs</p>
+<p>- Add new Devices simply by just scanning an QR code that is generated in any other already registered Device</p>
+<p>- Change the password within the App</p>
+<p>- Reset the App/App + Raspberry Pi</p>
+<h2>Roadmap:</h2>
+<p>- Delayed opening</p>
+<p>- Improved OTP</p>
+<p>- Easier install</p>
 </article>
 
 
         <footer>
-          <p>Lorem Ipsum</p>
+          <div><h1>©2021 5HR3D & jxstxn.__ & NikomitK</h1></div>
         </footer>
 
         <svg id="icon-gradient" width="0" height="0">
@@ -345,7 +332,7 @@ article h1 {
 }
 
 article h1:before {
-	content: "#"
+	content: ""
 }
 
 article h2 {
@@ -545,7 +532,7 @@ footer {
 	margin-top: 1.5rem;
 	padding: 2rem 10%;
 	flex: 0;
-	background: linear-gradient(45deg, #258ea6, #1ed889);
+	background: linear-gradient(45deg, #d81e6d, #258ea6);
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -739,6 +726,13 @@ header:not(.header-home)::after {
 header:not(.header-home) h1,
 header:not(.header-home) h2,
 header:not(.header-home) h3 {
+	display: inline;
+	color: #f1f1f1
+}
+
+footer:not(.footer-home) h1,
+footer:not(.footer-home) h2,
+footer:not(.footer-home) h3 {
 	display: inline;
 	color: #f1f1f1
 }
@@ -1331,7 +1325,7 @@ section.home .button {
 }
 
 .card .card-body a:not(.button) {
-	color: #f1f1f1
+	color: linear-gradient(45deg, #258ea6, #d81e6d);
 }
 
 .card button,
@@ -1383,7 +1377,7 @@ section.home .button {
 }
 
 .card.post .card-body a {
-	color: #258ea6
+  color: linear-gradient(45deg, #258ea6, #d81e6d);
 }
 
 .card.post .card-body h3 {
