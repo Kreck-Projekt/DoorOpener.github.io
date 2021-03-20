@@ -13,80 +13,85 @@
 <body>
     <div id="main">
         <header>
-        <div><h1>Smart DoorOpener</h1></div>
-</header>
+          <div><h1>Smart DoorOpener</h1></div>
+        </header>
 
-<article class="page">
-  <p>With this project, we enable you to open your door remotely from your smartphone. All you need is an already existing electric door opener.</p>
-  <p>As base we use a Raspberry Pi. The communication between the app and the server that's running on the raspberry pi is encrypted.</p>
-<h1>Repositories</h1>
+    <article class="page">
+      <p>With this project, we enable you to open your door remotely from your smartphone. All you need is an already existing electric door opener.</p>
+      <p>As base we use a Raspberry Pi. The communication between the app and the server that's running on the raspberry pi is encrypted.</p>
+      <h1>Repositories</h1>
 
         <div class="card">
-  <div class="card-body">
-    <h3>RaspiOpener</h3>
-    <p>Java</p>
-    <p>Description:</p>
-    <p></p>
-<p>It's the program that runs on the Raspberry Pi at the dooropener</p>
+          <div class="card-body">
+            <h3>RaspiOpener</h3>
+            <p>Java</p>
+            <p>Description:</p>
+            <p></p>
+            <p>It's the program that runs on the Raspberry Pi at the dooropener</p>
+            <div><a href="https://github.com/Kreck-Projekt/RaspiOpener" class="button">press me</a></div>
+          </div>
+        </div>
 
-<div><a href="https://github.com/Kreck-Projekt/RaspiOpener" class="button">press me</a></div>
+        <div class="card">
+          <div class="card-body">
+            <h3>Alive Keeper</h3>
+            <p>Java</p>
+            <p>Description:</p>
+            <p></p>
+            <p>It's a program that restarts RaspiOpener if it crashes</p>
+            <div><a href="https://github.com/Kreck-Projekt/AliveKeeper" class="button">press me</a></div>
+          </div>
+        </div>
 
-  </div>
+        <div class="card">
+          <div class="card-body">
+            <h3>DoorOpenerApp</h3>
+            <p>Dart</p>
+            <p>Description:</p>
+            <p></p>
+            <p>The app communitcates with the RaspiOpener to open the door, reset the registered devices or change that password</p>
+            <div><a href="https://github.com/Kreck-Projekt/DoorOpenerApp" class="button">press me</a></div>
+          </div>
+        </div>
 
-</div>
+        <div class="card">
+          <div class="card-body">
+            <h3>PiInstaller</h3>
+            <p>Shell</p>
+            <p>Description:</p>
+            <p></p>
+            <p>Make the installation of the dependencies, the AliveKeeper and RaspiOpener easier</p>
+            <div><a href="https://github.com/Kreck-Projekt/DoorOpenerApp" class="button">press me</a></div>
+          </div>
+        </div>
 
-<div class="card">
-<div class="card-body">
-<h3>Alive Keeper</h3>
-<p>Java</p>
-<p>Description:</p>
-<p></p>
-<p>It's a program that restarts RaspiOpener if it crashes</p>
-<div><a href="https://github.com/Kreck-Projekt/AliveKeeper" class="button">press me</a></div>
+        <h2>Download Android App:</h2>
+        <div class="card">
+          <div class="card-body">
+            <div><a href="https://github.com/Kreck-Projekt/DoorOpenerApp/releases/download/v1.0/door-opener-release.apk" class="button">Download</a></div>
+          </div>
+        </div>
 
-</div>
+        <h2>Installation:</h2>
+        <div class="card">
+          <div class="card-body">
+            <div><a href="https://github.com/Kreck-Projekt/RaspiOpener/blob/master/README.md" class="button">Installation guide</a></div>
+          </div>
+        </div>
 
-</div>
-
-<div class="card">
-<div class="card-body">
-<h3>DoorOpenerApp</h3>
-<p>Dart</p>
-<p>Description:</p>
-<p></p>
-<p>The app communitcates with the RaspiOpener to open the door, reset the registered devices or change that password</p>
-<div><a href="https://github.com/Kreck-Projekt/DoorOpenerApp" class="button">press me</a></div>
-</div>
-</div>
-
-<h2>Download Android App:</h2>
-<div class="card">
-<div class="card-body">
-<div><a href="https://github.com/Kreck-Projekt/DoorOpenerApp/releases/download/v1.0/door-opener-release.apk" class="button">Download</a></div>
-</div>
-</div>
-
-<h2>Installation:</h2>
-<div class="card">
-<div class="card-body">
-<div><a href="https://github.com/Kreck-Projekt/RaspiOpener/blob/master/README.md" class="button">Installation guide</a></div>
-</div>
-</div>
-
-<h2>Features:</h2>
-<p>- Configure the Time you want the opener to be active</p>
-<p>- Generate and use OTPs</p>
-<p>- Add new Devices simply by just scanning an QR code that is generated in any other already registered Device</p>
-<p>- Change the password within the App</p>
-<p>- Reset the App/App + Raspberry Pi</p>
-<h2>Roadmap:</h2>
-<p>- Delayed opening</p>
-<p>- Improved OTP</p>
-<p>- Easier install</p>
-<p>- End to End Encryption</p>
-<p>- Scan QR Code from Gallery</p>
-<p>- Export QR Code as picture</p>
-</article>
+        <h2>Features:</h2>
+        <p>- Configure the Time you want the opener to be active</p>
+        <p>- Generate and use OTPs</p>
+        <p>- Add new Devices simply by just scanning an QR code that is generated in any other already registered Device</p>
+        <p>- Change the password within the App</p>
+        <p>- Reset the App/App + Raspberry Pi</p>
+        <h2>Roadmap:</h2>
+        <p>- Delayed opening</p>
+        <p>- Improved OTP</p>
+        <p>- End to End Encryption</p>
+        <p>- Scan QR Code from Gallery</p>
+        <p>- Export QR Code as picture</p>
+      </article>
 
 
         <footer>
